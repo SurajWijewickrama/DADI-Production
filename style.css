@@ -1,0 +1,63 @@
+h1{
+    font-size: 100PX;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{    
+    color:white;
+}
+body{
+    background-color:black;
+}
+.clr{
+    clear:both;
+}
+.card{
+    column-count: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 2mm;
+    box-sizing: border-box;
+    width: 12cm;
+    text-align: center;
+    font-family: arial;
+    
+    max-height: 6cm;
+    min-height: 6cm;
+    float: left;
+    position: relative;
+}
+.card h2{
+    position:absolute;
+    left:50%; 
+}
+.price{
+    color:red;
+    font-size: 22px;
+}
+.card button{
+    border: none;
+    outline: 0;
+    padding: 12;
+    color: white;
+    background-color:gray;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 5px 5px 5px 5px;
+}
+.card button:hover{
+    opacity: 0.7;
+}
+img {
+    border-radius: 5px 5px 5px 5px;
+    width: 50%;
+    max-height: 6cm;
+    min-height: 6cm;
+}
+p{
+    color: red;
+}
+div{
+    border: 2cm;
+    border-radius: 5px 5px 5px 5px;
+}
